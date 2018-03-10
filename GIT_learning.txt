@@ -48,4 +48,19 @@ git checkout delete.txt undo changes in working directory and make it similar li
 Undo Git Changes staging
 git reset HEAD filename.txt
 
+git revert to previous commit
+
+
+if we want to reset or rollback to 2 or 3 commit before use git reset
+git reset --soft 4b039a99ce0 (Only remove from repository)
+git reset --mixed (Remove changes from staging, make repo and staging similar but still have changed file inside working directory)
+git reset --hard (Very weird delete every thing from working directory, staging, repo to previous commit)
+
+To remove untracked file
+git clean -n 
+git clean -f
+
+
+
+
 
