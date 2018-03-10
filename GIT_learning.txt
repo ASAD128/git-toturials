@@ -24,3 +24,10 @@ git log --since
 git log --until
 git log --author
 git log --grep "Init"
+
+Architecture
+Repository
+Staging index (git commit go repository)
+Working directory (git add go staging)
+
+Head is a pointer reisdes at the tip of current branch
