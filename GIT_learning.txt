@@ -60,6 +60,13 @@ To remove untracked file
 git clean -n 
 git clean -f
 
+gitignore
+zip, compress, images, videos, log, compiled code, dynamic contend, OS specific file
+https://gitbub.com/github/gitignore
+
+.gitignore_global in User directory
+git config --global core.excludesfile ~./.gitignore_global
+
 
 
 
