@@ -34,3 +34,18 @@ Head is a pointer reisdes at the tip of current branch
 
 git diff (working and repository)
 git diff --staged (staging and repositoy)
+
+git reset or git reset HEAD -- filename.txt
+git mv first.txt second.txt
+
+Git diff color--words first.txt
+
+git commit -am "Message" be very carefull while using -a it add and commit in one line but didn't care about new and deleted file
+
+Undo
+Undo Git Changes working directory
+git checkout delete.txt undo changes in working directory and make it similar like repository
+Undo Git Changes staging
+git reset HEAD filename.txt
+
+
