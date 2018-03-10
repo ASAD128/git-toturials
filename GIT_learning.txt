@@ -1,0 +1,26 @@
+git config --system
+/etc/gitconfig
+
+git config --global User
+/home/asad/.gitconfig
+
+Project
+git config
+project/.git/config
+
+distributed version control system (fork, clone, merge)
+
+Updating Config file
+git config --global user.name
+git config --global core.editor
+
+Git auto completion
+
+Git help log
+
+git log -n 2
+
+git log --since
+git log --until
+git log --author
+git log --grep "Init"
