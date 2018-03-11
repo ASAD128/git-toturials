@@ -67,6 +67,29 @@ https://gitbub.com/github/gitignore
 .gitignore_global in User directory
 git config --global core.excludesfile ~./.gitignore_global
 
+Remove file from staging and stop git to tracking and add in git ignore file
+git rm --cached delete.txt
+
+.gitkeep to track empty repo's
+
+git log before "2016-06-20"
+git log author "asad"
+git log --graph
+git log --oneline --graph --all --decorate 
+git log --grep="Init"
+git log a4f1e.. file.txt
+git ls-tree HEAD
+
+git ls-tree Master
+git show a4f1e
+git show HEAD~2 or git show HEAD^^ grand parent of last commit
+git diff dcf6b336 give the difference bwteen current and given commit 
+git diff dcf6b336..dcfgh453 Give the difference between two commit
+git diff -w dcf6b336..dcfgh453 -w ignore whilespace
+git diff --summary --stat
+ 
+
+
 
 
 
