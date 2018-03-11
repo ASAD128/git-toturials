@@ -1,3 +1,5 @@
+https://www.lynda.com/Git-tutorials
+
 git config --system
 /etc/gitconfig
 
@@ -87,7 +89,27 @@ git diff dcf6b336 give the difference bwteen current and given commit
 git diff dcf6b336..dcfgh453 Give the difference between two commit
 git diff -w dcf6b336..dcfgh453 -w ignore whilespace
 git diff --summary --stat
- 
+
+GIT branches
+Git branch branch_name(TO create a new branch)
+git checkout branch_name
+git checkout -b branch_name (create new branch and checkout)
+git diff --color-words master..new_branch  
+git diff --color-words master..new_branch^
+git branch --merged
+
+Rename branch
+git branch -m branch1 branch2
+git branch --move branch1 branch2
+
+Delete branch
+git branch -d branch_name
+git branch -D branch_name (if want to delete the branch which has serval commits )
+
+__git_ps1
+echo $PS1
+
+    
 
 
 
