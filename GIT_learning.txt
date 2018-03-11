@@ -129,6 +129,8 @@ git shash show shash@{0}
 
 git stash show -p stash@{1}
 
+git stash pop or git stash apply (To unstash or undo stash, pop remove from stash while apply keep a copy of stash their)
 
+git stash clear (Drop all)
 
 
