@@ -109,7 +109,11 @@ git branch -D branch_name (if want to delete the branch which has serval commits
 __git_ps1
 echo $PS1
 
-    
+Git merge
+Strategies
+Keep commit short
+Merge often to master
+Merge master changes to your branch frequently    
 
 
 
