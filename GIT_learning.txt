@@ -109,8 +109,10 @@ git branch -D branch_name (if want to delete the branch which has serval commits
 __git_ps1
 echo $PS1
 
-    
+git checkout master
+git merge branch_name (either fast forward or real, no-ff or ff-only) ff only possible only one commit ahead of master, if master has more commit than can't do ff
 
+git mergetool --tool=toolname 
 
 
 
