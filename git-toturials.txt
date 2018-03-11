@@ -133,4 +133,4 @@ git stash pop or git stash apply (To unstash or undo stash, pop remove from stas
 
 git stash clear (Drop all)
 
-
+git pull = git fetch + git merge
