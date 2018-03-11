@@ -119,11 +119,15 @@ Keep commit short
 Merge often to master
 Merge master changes to your branch frequently    
 
-
-
-
 git mergetool --tool=toolname 
 
+--- Git Stash toturials ---
+
+git stash save "Message"
+
+git shash show shash@{0}
+
+git stash show -p stash@{1}
 
 
 
